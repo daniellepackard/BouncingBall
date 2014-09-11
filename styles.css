@@ -1,0 +1,54 @@
+#ball-one {
+    box-shadow:inset -10px -30px  rgba(0,0,0,.08);
+    -moz-border-radius:100px;
+    -webkit-border-radius:100px;
+    border-radius:100%;
+
+    width:100px;
+    height:100px;
+    background-color:#0bdce9;
+    margin:0 400px;
+    margin-top:255px;
+  }
+
+.bounce{-webkit-animation:bounce 8s ease-in-out infinite}
+
+@-webkit-keyframes bounce {
+    0% { 
+      -webkit-transform:translateY(-200px);
+    }
+    5% {
+       -webkit-transform:translateY(0px);
+    }
+    15% {
+      -webkit-transform:translateY(-170px);
+    }
+    30% { 
+      -webkit-transform:translateY(0px); 
+    }
+    40% {
+       -webkit-transform:translateY(-140px);
+    }
+    50% { 
+      -webkit-transform:translateY(0); 
+    }
+    60% {
+      -webkit-transform:translateY(-110px);
+    }
+    70% {
+      -webkit-transform:translateY(0%);
+    }
+    80% {
+      -webkit-transform:translateY(-50px);
+    }
+    90% {
+      -webkit-transform:translateY(0);
+    }
+    95% {
+     -webkit-transform:translateY(-10px);
+    }
+
+    100% {
+     -webkit-transform:translateY(0);
+    }
+  }
